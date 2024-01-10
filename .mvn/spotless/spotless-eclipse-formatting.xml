@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profiles version="23">
+    <profile kind="CodeFormatterProfile" name="Java Conventions" version="23">
+        <setting id="org.eclipse.jdt.core.formatter.insert_space_after_ellipsis" value="insert"/>
+    </profile>
+</profiles>

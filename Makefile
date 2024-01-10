@@ -1,0 +1,2 @@
+test:
+	./mvnw spotless:apply
