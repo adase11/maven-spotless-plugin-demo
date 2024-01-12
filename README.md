@@ -1,5 +1,5 @@
 # maven-spotless-plugin-demo
-Demonstrate issue with maven spotless plugin and Java 21 switch statements
+Demonstrate issue with maven spotless plugin and Java guarded case lables using `when` in switch statements.
 
 
 ## Directions
@@ -20,3 +20,6 @@ From debugging the maven process it appears that the issues is with processing t
 ```java
 case DemoRecord d when d.x != null -> demoRecord.x();
 ```
+
+## Link to switch statement docs
+https://docs.oracle.com/javase/specs/jls/se21/html/jls-14.html#jls-SwitchBlock
